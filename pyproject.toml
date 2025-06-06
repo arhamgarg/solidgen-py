@@ -1,0 +1,9 @@
+[project]
+name = "solidgen-py"
+version = "0.1.0"
+description = "A Model Context Protocol (MCP) server that generates SolidWorks automation Python scripts using pywin32."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.7.0",
+]
